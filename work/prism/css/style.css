@@ -1,0 +1,83 @@
+body{
+    background-color: #dfdfdf!important;
+}
+html{
+    font-size: 15px;
+}
+.add{
+    border-right: 1px solid gray;
+}
+.header{
+    padding: 50px 0;
+    background: linear-gradient(to bottom left,purple, blue);
+    color: #fff;
+    width: 100%;
+}
+.header h2{
+    font-size: 2.5rem;
+    
+}
+.header p{
+    font-size: 1rem;
+    color: #dfdfdf;
+}
+.btn{
+    border-radius: 30px;
+}
+.button{
+    background-color: transparent;
+    color: #000;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.section1{
+    background-color: #fff;
+    width: 100%;
+    color:gray;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.three-img img{
+    width: 100%;
+}
+.three-img{
+    background-color: #fff;
+    margin: 40px 0;
+    color: gray;
+}
+.three-img p{
+    line-height: 2;
+    font-size: 1rem;
+}
+.three-img h3{
+    font-size: 1 3rem;
+}
+.three-img div{
+    padding: 0;
+    
+}
+.three-img .col-sm-8{
+    padding: 10px;
+    
+}
+
+.section3{
+    background-color: #fff;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+    color: gray;
+}
+form input,textarea{
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 4px 8px;
+    margin: 10px 0;
+}
+.fa{
+    color: green;
+}
+.footer{
+    color: gray;
+}

@@ -1,0 +1,195 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dbdbdb;
+}
+.pic{
+    width: 100%;
+}
+.mycontainer{
+    padding: 0;
+}
+
+#mynav{
+    background: none;
+    border: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+}
+.navbar-header{
+    float: none;
+}
+#mynav .navbar-toggle{
+    
+    display: block;
+    border: 0;
+  
+}
+#mynav .navbar-toggle:hover{
+
+    background-color: transparent ;
+    cursor: pointer;
+}
+#mynav .icon-right{
+    float: right;
+    padding-left: 10px;
+
+}
+#mynav .icon-bar-left{
+    float: left;
+}
+#mynav .icon-bar{
+    background-color: #fff;
+}
+#mynav .navbar-brand{
+    color: #fff;
+    float: left;
+}
+#mynavbar a{
+    color: #fff;
+}
+#mynavbar .navbar-right {
+    float: left !important;
+}
+/*carousel starts*/
+.item{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../pic/slide01.jpg');
+    background-size: cover;
+}
+.item2{
+    
+    background-image: url('../pic/slide02.jpg');
+}
+.item3{
+    
+    background-image: url('../pic/slide03.jpg');
+}
+.item4{
+    
+    background-image: url('../pic/slide04.jpg');
+}
+.item5{
+    
+    background-image: url('../pic/slide05.jpg');
+}
+/*banner starts*/
+.banner-text{
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #fff;
+}
+hr{
+    width: 40%;
+    margin: 5px auto;
+    background-color: gray;
+}
+.banner-text p{
+    letter-spacing: 4px;
+}
+.banner-text h1{
+    font-size: 100px;
+}
+/*two section starts*/
+.section2{
+    padding: 40px 0;
+}
+.left , .right{
+    width: 95%;
+    background-color: #fff;
+    padding: 0;
+}
+.right{
+    margin-left: 5%;
+}
+.left button , .right button{
+    background-color: transparent;
+    border: 1px solid gray;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.left p ,.right p{
+    font-size: 12px;
+    padding: 10px;
+    color: gray;
+    letter-spacing: 3px;
+    margin: 2px;
+}
+.left h3 ,.right h3{
+    margin: 2px;
+    padding: 10px;
+    font-weight: 400;
+}
+.align-left{
+    text-align: left;
+    letter-spacing: normal !important;
+    padding:10px;
+}
+
+/*section 3 starts*/
+.background{
+    color: #fff;
+    background-image: url('../pic/bg.jpg');
+    background-attachment: fixed;
+    padding: 20px 0;
+}
+.background p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+/*section4 starts*/
+
+.section4{
+    margin: 20px 0;
+}
+.section4 p{
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: black;
+    margin-top: 20px;
+}
+
+.img .pic{
+    margin: 10px 0;
+    border: 10px solid #fff;
+}
+/*footer starts*/
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: #dbdbdb;
+}
+.footer .fa{
+    font-size: 20px;
+    margin: 2px;
+}
+.social{
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:786px){
+    hr{
+    width: 60%;
+    }
+    .banner-text p{
+        letter-spacing: 2px;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .left , .right{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .background p, .section4 p{
+        letter-spacing: 2px;
+        font-size: 8px;
+    }
+}

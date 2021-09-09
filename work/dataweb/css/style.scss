@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+$pricol:#0c0f38;
+$seccol:#fdd430;
+$whitecol:#fff;
+$blackcol:#000;
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inner{
+    max-width: 1200px;
+    padding: 0 5%;
+    margin: 0 auto;
+
+}
+html{
+    font-size: 15px;
+}
+
+.button{
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    border: 0;
+}
+// header starts
+header{
+    background-color: $pricol;
+    height: 100%;
+    width: 100%;
+    .navigation{
+        padding:4% 5% ;
+    }
+    a{
+        color: $whitecol;
+        text-decoration: none;
+       font-size: 1.2rem;
+       text-transform: capitalize;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            margin:0  1.5rem ;
+          .active{
+              color:$seccol;
+          }  
+        }
+        
+    }
+    .logo{
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+    .banner{
+        padding: 5%; 
+    }
+    .banner-text{
+        width: 40%;
+        h1{
+            font-size: 4rem;
+            color: $whitecol;
+            text-transform: capitalize;
+            line-height: 1.4;
+        }
+        h2{
+            color: #fdd430;
+            font-size: 2.6rem;
+            text-transform: capitalize;
+        }
+        p{
+            color: #fff;
+            line-height: 2;
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .button:hover{
+            background-color: $blackcol;
+            color: $whitecol;
+        }
+
+    }
+    .banner-img{
+        width: 60%;
+        img{
+            width: 100%;
+        }
+        
+    }
+    .fa{
+        display: none;
+        width: 50px;
+        color: $whitecol;
+        font-size: 20px;
+        
+    }
+}
+
+
+// hosting starts
+
+.hosting{
+    padding-top: 50px;
+    text-align: center;
+    h2{
+        font-size: 3rem;
+        
+    }
+    img{
+        width: 50%;
+        margin: 5%;
+    }
+    p{
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .button{
+        color: $whitecol;
+        background-color: $blackcol;
+        margin: 5%;
+    }
+
+}
+
+
+//service starts
+
+.service{
+    text-align: center;
+    padding: 40px 0;
+    background-color: $pricol;
+    color: $whitecol;
+    h2{
+        font-size: 3rem;
+        margin: 20px;
+        font-family: Poppins ;
+    }
+    p{
+        font-size: 1rem;
+        margin: 15px;
+    }
+    .box{
+        width: 30% ;
+        border: 2px $whitecol solid ;
+        margin: 20px 0;
+        padding: 40px;
+        border-radius: 20px ;
+        
+        h3{
+            font-size: 1.5rem;
+        }
+        p{
+            margin: 15px 0;
+        }
+        
+    }
+    .button{
+        margin: 50px;
+    }
+    .button:hover{
+        background-color: #8308eb;
+        color: $whitecol;
+    }
+    .box:hover{
+        background-color: #8308eb;
+        transition: 1s;
+        
+    }
+}
+
+
+//choose starts
+
+.choose{
+    text-align: center;
+    padding: 30px;
+    h2{
+        font-size: 3rem;
+        margin: 10px;
+    }
+    p{
+        font-size: 1rem;
+        margin: 20px;
+    }
+    .box1{
+        width: 30%;
+        margin: 30px 0;
+       
+        transition: .5s;
+        h3{
+            font-size: 1.5rem;
+            margin: 10px;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.3;
+        }
+        .button{
+            background-color: $blackcol;
+            color: $whitecol;
+         
+            font-size: 1rem;
+            margin: 20px;
+        }
+        .button:hover{
+            background-color: #8308eb;
+            color: $whitecol;
+        }
+        
+    }
+    .box1:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+//contact starts
+
+.contact{
+    background: linear-gradient(180deg , $whitecol 50% , $pricol 50%);
+    width: 100%;
+}
+.form{
+    width: 40%;
+    border-radius: 20px;
+    background-color: $pricol;
+    color: $whitecol;
+    text-align: center;
+    margin: auto;
+    padding: 40px 10px;
+    input,textarea{
+        width: 80%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 0;
+        height: 50px;
+    }
+    textarea{
+        height: 100px;
+    }
+    .button{
+        color: red;
+        border-radius: 20px;
+    }
+}
+
+
+
+//footer starts
+
+.footer{
+    background-color: $pricol;
+    color: $whitecol;
+    text-align: center;
+    padding: 40px;
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.1rem;
+        width: 40%;
+        margin: 20px auto;
+    }
+}
+footer p{
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+
+
+
+@media (max-width:900px){
+    html{
+        font-size: 12px;
+    }
+    .form{
+        width: 100%;
+    }
+
+    header{
+        .fa{
+            display: block;
+        }
+        
+        nav{
+            position: relative;
+            .nav{
+                display: none;
+                position: absolute;
+                top: 100px;
+                left: 0;
+                background-color: black;
+                width: 100%;
+                li{
+                    padding: 5px;
+                }
+            }
+        }
+        .banner-text,.banner-img{
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+    }
+
+    .serve{
+        .box{
+            width: 45%;
+        }
+    }
+
+    .choose .box1{
+        width: 100%;
+    }
+    
+    .footer p{
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width:650px){
+    .serve .box{
+        width: 100%;
+    }
+}

@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.clearflix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.master{
+    width: 80%;
+    margin: 0 auto;
+
+}
+/*navigation starts here*/
+.navigation{
+    width: 100%;
+}
+.nav-left{
+    float: left;
+    width: 33%;
+    font-size: 25px;
+    color: grey;
+}
+.nav-left span{
+    margin: 5%;
+    font-size: 35px;
+}
+.nav-center{
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-family: 'Pacifico', cursive;;
+}
+.nav-center h3{
+    margin: 2%;
+    color: #F6755E;
+    font-size: 20pt;
+}
+.nav-center a{
+    color: #F6755E;
+}
+.nav-right{
+    float: right;
+    width: 33%;
+    
+}
+.nav-right button{
+    float: right;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 3%;
+    font-size: 12pt;
+    
+    
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+}
+/*navigation ends here*/
+/*section-1 starts here*/
+.section-1{
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+.section-1 .master{
+    background-image: url(../Pic/banner.jpg);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+.section-1 h1{
+    color: #25a2c3;
+    font-size: 30pt;
+}
+.section-1 p{
+    font-size: 12pt;
+    color: gray;
+}
+.section-1 button{
+    background-color:#F6755E ;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.section-1 .master2{
+    margin: 5% auto;
+    width: 80%;
+}
+
+.section-1 .left{
+    width: 33%;
+    float: left;
+    text-align: right;
+    margin-right: 2%;
+}
+.section-1 .center{
+    float: left;
+    width: 30%;
+}
+.section-1 img{
+    margin-top: 5%;
+    width: 80%;
+    border-radius: 100%;
+}
+.section-1 .right{
+    width: 33%;
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+}
+.section-1 h2{
+    font-size: 12pt;
+    color:#25a2c3 ;
+}
+.section-1 p{
+    font-size: 8pt;
+    color: grey;
+}
+/*section-1 ends*/
+/*section-3 starts*/
+.section-3{
+    width: 100%;
+    color: #Fff;
+    text-align: center;
+}
+
+.section-3 .master{
+    width: 100%;
+    padding: 2% 0;
+    background-color: #F6755E;
+    margin: 20px 0;
+
+}
+.section-3 .master p{
+    font-size: 5pt;
+}
+    
+/*section-3 ends*/
+/*section-4 starts*/
+
+.section-3 .master1{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-3 .three-img{
+    float: left;
+    width: 30%;
+    border: 1px solid grey;
+    margin-right: 3%;
+}
+
+.section-3 .master1 h3{
+    font-size: 12pt;
+    color: #25a2c3;
+    padding: 3%;
+}
+.section-3 .master1 p{
+    color: black;
+    font-size: 8pt;
+    padding: 3%;
+    
+}
+.section-3 .master1 img{
+    width: 100%;
+}
+/*footer starts here*/
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #25a2c3;
+    text-align: center;
+    color: #fff;
+}
+.footer .contact{
+    width: 30%;
+    float: left;
+    margin-top: 1%;
+}
+.footer h2{
+    margin-top: 5%;
+    padding: 3%;
+}
+.footer .p{
+    clear: both;
+    border-top: 1px solid grey;
+    padding: 4%;
+}
+.fa-phone,.fa-envelope,.fa-map-marker{
+    color: #F6755E;
+}
+
+@media(max-width:1000px){
+    .section-1 	.left, .section-1 .right, .section-1 .center, .section-3 .three-img{
+        width:100%;
+        float:none;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

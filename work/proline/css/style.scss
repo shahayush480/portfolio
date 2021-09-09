@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+$whitcol : white;
+$graycol : #c7c7c7;
+$bluecol:#108ac1;
+$primaryfont: "Open Sans", sans-serif;
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+}
+
+// header starts
+header{
+    width: 100%;
+    padding-top: 40px;
+ 
+    
+    
+    h1{
+        text-align: center;
+        font-size: 2.8rem;
+        font-weight: 100;
+        padding-bottom: 20px;
+        .fa{
+            font-size: 4rem;
+        }
+    }
+    nav{
+        position: sticky;
+        border-top: 2px solid $graycol;
+        border-bottom: 2px solid $graycol;
+        margin-bottom: 5px;
+        ul{
+            width: 100%;
+            display: flex;
+            list-style-type: none;
+            margin: 20px 0;
+            justify-content: center;
+            
+        }
+        li{
+            padding: 5px;
+            border-radius: 1px;
+            text-align: center;
+            a{
+                font-size: 1.8rem;
+                color: black;
+                padding:0 35px;
+
+            }
+            a:hover{
+                color: $bluecol;
+                background-color: #eaeaea;
+            }
+        }
+        .active{
+            color: $bluecol;
+            background-color: #eaeaea;
+        }
+        .fa{
+            display: none;
+            font-size: 2rem;
+            text-align: right;
+            margin-right: 20px;
+            color: $graycol;
+        }
+
+    }
+
+    
+}
+//video section starts
+.video{
+    position: relative;
+    width: 100%;
+
+    
+
+    video{
+        width: 100%;
+    }
+    .banner-text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color : $whitcol;
+        z-index: 2;
+        text-align: center;
+        width: 100%;
+        padding-top: 25%;
+       
+     
+        h1{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+// section 1 starts
+.inner{
+    max-width: 1200px ;
+    margin: auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.sect1{
+    padding: 40px 0;
+    .info{
+        width: 45%;
+        color: #5f5f5f;
+    }
+    h3{
+        font-size: 2rem;
+        
+        .fa{
+            font-size: 4rem;
+            margin-right: 10px;
+        }
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding: 30px 0;
+    }
+}
+//activities starts
+.activities{
+    .active{
+        width: 100%;
+        background-image: url('../img/img-activities.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 60px 30px;
+        background-color: rgba(0, 0, 0,.6);
+        background-blend-mode: darken;
+        h2{
+            padding: 20px;
+            color: $whitcol;
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+    .fourbox{
+        padding: 10px;
+    }
+    .box{
+       width: 46%;
+       font: 1.5rem; 
+       align-content: center;
+       margin-top: 20px;
+       border: 1px solid #c7c7c7;
+       padding: 20px;
+       div{
+           width: 55%;
+           align-self: center;
+       }  
+       h4{
+           color: $bluecol;
+           font-size: 1.3rem;
+           margin-bottom: 10px;
+
+       }  
+
+       p{
+           font-size: 1.1rem;
+           line-height: 1.3;
+           color: #5f5f5f;
+       }
+    }
+    img{
+        width: 40%;
+    }
+
+}
+//company section starts
+.company{
+    width: 100%;
+    color: #5f5f5f;
+    margin-top: 30px;
+
+}
+.our-company{
+    width: 68%;
+    align-content: center;
+    
+    img{
+        width: 50%;
+    }
+    .about{
+        width: 49%;
+        text-align: right;
+      
+        h2{
+            font-size: 2.5rem;
+            text-align: left;
+        }
+        p{
+            font-size: 1.3rem;
+            line-height: 1.5;
+            text-align: left;
+            margin-top: 20px;
+            
+        } 
+
+    }
+}
+.button{
+    width: 50%;
+    max-width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: $primaryfont;
+   
+}
+
+.vision-sect{
+    width: 30%;
+    .aim{
+        border: 1px solid $graycol;
+    } 
+    .select{
+        justify-content: space-around;
+        
+    }
+    a{
+        font-size: 2rem;
+        text-align: center;
+        justify-self: center;
+        color: black;
+        padding: 10px;
+        width: 50%;
+        background-color: $graycol;
+        border: 1px solid black;
+    }
+    #mission{
+        display: none;
+    }
+    .vision{
+        background-color: #fff;
+        border: 0;
+    }
+    p{
+        padding: 35px;
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+}
+.contact{
+ margin-top: 30px;
+ 
+ 
+
+}
+.contact-us{
+    width: 45%;
+    text-align: right;
+    h2{
+        font-size: 3rem;
+        margin: 20px 0;
+        color: #5f5f5f;
+    }
+    input{
+        width: 70%;
+        height: 50px;
+        padding: 20px;
+        border:1px solid #5f5f5f;
+    }
+    textarea{
+        width: 70%;
+        height: 150px;
+        padding: 20px;
+        border:1px solid #5f5f5f;
+    }
+    
+}
+.details{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.4;
+        color: #5f5f5f;
+    }
+}
+
+// footer starts
+footer{
+    font-size: 1rem;
+    padding: 60px 0;
+    .fa{
+        font-size: 2rem;
+        
+    }
+    a{
+        color: #5f5f5f;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    a:hover{
+        background-color: $graycol;
+    }
+}
+@media(max-width:800px){
+    html{
+        font-size: 15px;
+    }
+    header {
+        nav {
+            ul{
+                display: none;
+            }
+            .fa{
+                display: block;
+            }
+        }
+        .video{
+            height: 500px;
+        }
+    }
+    .activities{
+        .box{
+            width: 100%;
+            img,div{
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+        
+    }
+    .vision-sect,.our-company,.contact-us,.details,footer,.sect1 .info{
+        width: 100%;
+        padding: 5%;
+    }
+    .contact-us{
+        text-align: center;
+    }
+    .our-company{
+         img,.about{
+        width: 100%;
+         }
+    }
+
+}
+@media(max-width:600px){
+    html{
+        font-size: 10px;
+    }
+}

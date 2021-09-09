@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> sign up form</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <form name="signup" action="abc.php" method="post" onsubmit="return FormValidation()">
+                    <h2>SIGN UP NOW</h2>
+                    <div class="formdesign" id="FirstName">
+                        <label>First Name:<span class="error"></span></label>
+                        <input type="text" name="FirstName"  placeholder="First Name"  />
+                        
+                    </div>
+                    <div class="formdesign" id="LastName">
+                        <label>Last Name:<span class="error"></span></label>
+                        <input type="text" name="LastName"  placeholder="Last Name"  />
+                        
+                    </div>
+                    <div class="formdesign" id="Email">
+                        <label>Email: <span class="error"></span></label>
+                        <input type="email" name="email"  placeholder="E-mail"   />
+                       
+                    </div>
+                     <div class="formdesign" id="Dob">
+                        <label>Date Of Birth:  <span class="error"></span>  </label>
+                        <input type="date" name="date" max="2003-01-01"/>
+                        
+                    </div>
+                    <div class="formdesign" id="Age">
+                        <label>Age:<span class="error"></span></label>
+                        <input type="number" name="Age"  placeholder="Age"  />
+                        
+                    </div>
+                    
+                     <div class="formdesign" id="number">
+                         <label>Mobile No: <span class="error"></span></label>
+                        <input type="number" name="number"  placeholder="Mobile Number"  />
+                       
+                    </div>
+                     <div class="formdesign" id="pass" > 
+                         <label>Password:<span class="error"></span></label>
+                        <input type="password" name="pass" placeholder="Enter Password"  />
+                        
+                    </div>
+                    <div class="formdesign" id="cpass" >
+                        <label>Comfirm Password:<span class="error"></span></label>
+                        <input type="password" name="cpass" placeholder="Comfirm Password"  />
+                        
+                    </div>
+           
+                    <input type="submit" id="button" value="Sign Up" />
+                </form>
+            </div>
+            
+        </div>
+       
+        
+        
+        <script src="js/vanila.js" type="text/javascript" ></script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <script type="text/javascript" >
+            VanillaTilt.init(document.querySelector(".form"),{
+                max:25,
+                speed:400
+            })
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+html{
+    font-size: 15px;
+}
+.container{
+    width: 100%;
+    background-image: url('../img/bg.jpg');
+    background-color: rgba(0,0,0,.5);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 5%;
+    background-color: rgba(255,255,255,.4);
+    padding: 3rem;
+    color: #fff;
+    border-radius: 10px;
+}
+.form h2{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+.form lable{
+    font-size: 1.6rem;
+    font-weight: 800;
+  
+  
+}
+.form input{
+    width: 100%;
+    background-color: rgba(255,255,255,.2);
+    border-top: 1px solid rgba(255,255,255,.5);
+    border-left: 1px solid rgba(255,255,255,.5);
+    border-bottom: 0;
+    border-right: 0;
+    padding: 1rem;
+    margin: .7rem 0;
+    border-radius: 3px;
+    color: #fff;
+}
+#Dob input{
+    background-color: rgba(255,255,255,.6);
+}
+.form input::placeholder{
+    color: #fff;
+}
+.form #button{
+    background-color: rgba(255,255,255,.7);
+}
+.form .error{
+    color: cyan;
+    font-weight: 600;
+}
+
+
+
+@media(max-width:768px){
+   html{
+       font-size: 12px;
+   }
+   
+  
+}
