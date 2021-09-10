@@ -24,19 +24,19 @@
     </div>
     <nav>
         <ul class="nav ">
-            <a href="index.html">
-                <li id="home" class=" flexbox center"> <span class="fa fa-home"> </span></li>
+            <a id="home" href="#">
+              <li class="active flexbox center"> <span class="fa fa-home"> </span></li>
             </a>
-            <a href="work.html">
-                <li id="portfolio" class="flexbox center"><span class="fa fa-pie-chart"> </span></li>
+            <a id="portfolio" href="work.html">
+              <li  class="flexbox center"><span class="fa fa-pie-chart"> </span></li>
             </a>
-            <a href="about.html">
-                <li id="about" class="  flexbox center"><span class="fa fa-user"> </span></li>
+            <a id="about" href="about.html">
+              <li  class="flexbox center"><span class="fa fa-user"> </span></li>
             </a>
-            <a href="#">
-                <li id="phone" class="active flexbox center"><span class="fa fa-phone"> </span></li>
+            <a  id="phone" href="contact.html">
+              <li class="flexbox center"><span class="fa fa-phone"> </span></li>
             </a>
-        </ul>
+          </ul>
     </nav>
 
     <div class="color-switcher flexbox">
@@ -75,7 +75,7 @@
                     EMAIL</a> </h4>
             <h4><span class=" fa fa-whatsapp"></span> WHATSAPP ME:- <a href="https://wa.me/919049877048/?text=hii">Say
                     Hi on WHATSAPP</a> </h4>
-            <div class="social flexbox center">
+            <div class="social flexbox ">
                 <a href="https://www.facebook.com/ayush.shah.16144606"><span class="fa fa-facebook"></span></a>
                 <a href="https://www.instagram.com/ayushshahmanish"><span class="fa fa-instagram"></span></a>
                 <a href="https://www.youtube.com/ayushshah"><span class="fa fa-youtube"></span></a>
@@ -86,11 +86,14 @@
         </section>
         <section class="form">
             <form action="/php/form.php" method="POST">
-                <input type="text" name="first_name" placeholder="first name" required/>
-                <input type="text" name="last_name" placeholder="last name"  required/>
-                <input type="email" name="email"  placeholder="email" /> <br />
-                <textarea name="message" rows="8" placeholder="your message" required></textarea> <br />
-                <input type="submit" name="submit" id="send" value="send message" class="button" />
+                <div class="flexbox ">
+
+                    <input type="text" name="first_name" placeholder="First name" required/>
+                    <input type="text" name="last_name" placeholder="Last name"  required/>
+                </div>
+                <input type="email" name="email"  placeholder="E-mail" /> <br />
+                <textarea name="message" rows="8" placeholder="Your Message" required></textarea> <br />
+                <input type="submit" name="submit" id="send" value="Send Message" class="button" />
 
 
             </form>
