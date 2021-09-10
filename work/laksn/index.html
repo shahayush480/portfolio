@@ -511,8 +511,11 @@
                 </div>
                 <div class="get-right responsive-phone">
                     <form action="#" method="post">
-                        <input type="text" name="name" placeholder="Name"/>
-                        <input type="email" name="email" placeholder="Email"/><br />
+                        <div class="flexbox">
+
+                            <input type="text" name="name" placeholder="Name"/>
+                            <input type="email" name="email" placeholder="Email"/>
+                        </div>
                         <input type="text" name="subject" placeholder="Subject" class="subject"/>
                         <br />
                         <textarea name="Message" rows="8" cols="40" placeholder="message"></textarea> 
@@ -561,6 +564,8 @@
                     dotsEach:true,
                     autoplay:true,
                     startPosition:1,
+                center:true,
+
                     responsive:{
                         0:{
                             items:1
@@ -580,6 +585,15 @@
                 startPosition:1,
                 autoplay:true,
                 autoplayTimeout:7000,
+                center:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    500:{
+                        items:3
+                    }
+                }
             });
            
           $('.question').click(function(){

@@ -554,6 +554,10 @@ nav a:hover .fa{
     position: relative;
     transition: 0.4s;
     animation: visible 1s 1.5s both;
+    overflow: hidden;
+}
+.port h4{
+    text-align: center;
 }
 .middle{
     position: absolute;
@@ -566,12 +570,22 @@ nav a:hover .fa{
     font-size: 3rem;
     color: var(--stylecolor2);
     text-align: center;
+    transform: translateY(100%);
+    transition: .5s;
 }
 
 .port:hover .middle{
     opacity: .8;
-}
+    transform: translateY(0%);
 
+}
+.port:hover h4{
+   display: none; 
+}
+.text{
+    margin: 20px 50px;
+
+}
 .text a{
    
     color: var(--stylecolor2);
@@ -581,6 +595,18 @@ nav a:hover .fa{
     font-size: 1.4rem;
     text-align: left;
     padding: 10px;
+}
+.skills-used li{
+    font-size: 1.1rem;
+    text-align: left;
+    color: #000;
+}
+.skills-used optgroup[label]{
+    font-size: 1rem;
+}
+.skills-used h6{
+    text-align: left;
+    font-size: 1.2rem;
 }
 /*contact starts*/
 .contact{
@@ -795,6 +821,7 @@ nav a:hover .fa{
     .port{
         width: 100%;
     }
+   
     /*Contact page*/
     .contact{
         padding-top: 80px ;

@@ -34,6 +34,14 @@ html{
     font-weight: 100;
     border: 0;
 }
+.sticky{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #0c0f38;
+    z-index: 200;
+}
 // header starts
 header{
     background-color: $pricol;
@@ -110,7 +118,7 @@ header{
 // hosting starts
 
 .hosting{
-    padding-top: 50px;
+    padding: 50px 0;
     text-align: center;
     h2{
         font-size: 3rem;
@@ -186,7 +194,8 @@ header{
 
 .choose{
     text-align: center;
-    padding: 30px;
+    padding: 50px 0;
+    margin: 20px auto;
     h2{
         font-size: 3rem;
         margin: 10px;

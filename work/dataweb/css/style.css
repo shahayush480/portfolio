@@ -38,6 +38,15 @@ html {
   border: 0;
 }
 
+.sticky {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #0c0f38;
+  z-index: 200;
+}
+
 header {
   background-color: #0c0f38;
   height: 100%;
@@ -121,7 +130,7 @@ header .fa {
 }
 
 .hosting {
-  padding-top: 50px;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -199,7 +208,8 @@ header .fa {
 
 .choose {
   text-align: center;
-  padding: 30px;
+  padding: 50px 0;
+  margin: 20px auto;
 }
 
 .choose h2 {
