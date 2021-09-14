@@ -58,6 +58,7 @@ header {
         width: 100%;
         align-self: flex-start;
         overflow: hidden;
+        padding: 20px;
 
         .logo {
             width: 50px;
@@ -278,6 +279,8 @@ header {
     width: 100%;
     background-color: #000;
     z-index: 20;
+    padding: 20px;
+
 }
 
 .button {
@@ -310,7 +313,7 @@ header {
         background-color: #0a9e88;
         color: white;
         cursor: pointer;
-        padding: 15px;
+        padding: 20px;
         border-radius: 100%;
         .fa {
             font-size: 2rem;
