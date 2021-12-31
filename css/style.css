@@ -216,7 +216,7 @@ visibility: visible;
 }
 
 .img{
-    width: 42%;
+    width:37%;
     padding: 11px;
     background:linear-gradient(250deg, var(--stylecolor2) 50% ,var(--stylecolor) 50%);
     /* margin-bottom: 50px; */
